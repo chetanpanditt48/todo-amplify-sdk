@@ -11,7 +11,7 @@ const Navbar = ({userEmail ,signOut}) => {
       </div>
       <div className="navbar-right">
         <h3 to="/profile" className="nav-link p-2 m-1 border text-white">{userEmail}</h3>
-        <button onClick={signOut} variation="primary" style={{ margin: '10px' }}>
+        <button className="nav-link p-2 m-1 border text-white" onClick={signOut} variation="primary" style={{ margin: '10px' }}>
         Sign Out
       </button>
       </div>

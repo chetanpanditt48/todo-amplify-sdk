@@ -4,7 +4,9 @@ const About = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h1>About Us</h1>
-      <p>This page provides information about the application or organization.</p>
+      <p>Stay organized and boost productivity with our intuitive To-Do List app.
+Easily create, update, and manage your tasks anytime, anywhere.
+Secure cloud storage ensures your tasks are always backed up and accessible.</p>
     </div>
   );
 };
